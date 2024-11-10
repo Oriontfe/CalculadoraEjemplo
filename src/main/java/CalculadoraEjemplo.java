@@ -74,11 +74,15 @@ public class CalculadoraEjemplo {
      * @param args Argumentos de la línea de comandos.
      */
     public static void main(String[] args) {
-        CalculadoraEjemplo calculadora = new CalculadoraEjemplo(10, 5);
-        
-        System.out.println("Suma: " + calculadora.sumar());
-        System.out.println("Resta: " + calculadora.restar());
-        System.out.println("Multiplicación: " + calculadora.multiplicar());
-        System.out.println("División: " + calculadora.dividir());
-    }
+    CalculadoraEjemplo calculadora = new CalculadoraEjemplo(10, 5);
+    
+    System.out.println("Suma: " + calculadora.sumar());
+    System.out.println("Resta: " + calculadora.restar());
+    System.out.println("Multiplicación: " + calculadora.multiplicar());
+    System.out.println("División: " + calculadora.dividir());
+
+    // Nuevo mensaje o cálculo adicional
+    System.out.println("Operación completada con éxito.");
+}
+
 }
